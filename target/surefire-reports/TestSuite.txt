@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.97 s <<< FAILURE! -- in TestSuite
+runner.RunCuke.runScenario["validate login module", "Login into Demoblaze application"](1) -- Time elapsed: 9.023 s <<< FAILURE!
+java.lang.AssertionError: expected [Cart] but found [Log out]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at steps.Login.menu_options_should_be_visible(Login.java:72)
+	at ✽.menu options should be visible(file:///D:/Eclipse%20mars/mars%20workspace/Updated%20workspace/CucumberPageObjects/src/test/resources/features/Login.feature:11)
+

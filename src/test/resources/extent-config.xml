@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+  <configuration>
+    <!-- report theme --> <!-- standard, dark -->
+    <theme>dark</theme>
+
+    <!-- title of the document -->
+    <documentTitle>My Project Automation</documentTitle>
+
+    <!-- report name -->
+    <reportName>Smoke Suite Execution</reportName>
+  </configuration>
+</extentreports>

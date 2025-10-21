@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-06T17:09:03 IST" name="Suite" finished-at="2025-09-06T17:09:15 IST" duration-ms="11625">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCuke@477b4cdf]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-09-06T17:09:03 IST" name="Test" finished-at="2025-09-06T17:09:15 IST" duration-ms="11625">
+      <class name="runner.RunCuke">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.RunCuke@477b4cdf]" started-at="2025-09-06T17:09:03 IST" name="setUpClass" finished-at="2025-09-06T17:09:05 IST" duration-ms="1669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5eb5da12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCuke@477b4cdf]" started-at="2025-09-06T17:09:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-06T17:09:14 IST" duration-ms="9018" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validate login module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login into Demoblaze application"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Cart] but found [Log out]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Cart] but found [Log out]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at steps.Login.menu_options_should_be_visible(Login.java:72)
+at ✽.menu options should be visible(file:///D:/Eclipse%20mars/mars%20workspace/Updated%20workspace/CucumberPageObjects/src/test/resources/features/Login.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.RunCuke@477b4cdf]" started-at="2025-09-06T17:09:14 IST" name="tearDownClass" finished-at="2025-09-06T17:09:15 IST" duration-ms="799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RunCuke -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-21T15:36:11 IST" name="Default suite" finished-at="2025-10-21T15:36:53 IST" duration-ms="41422">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCuke@11fc564b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-10-21T15:36:11 IST" name="Default test" finished-at="2025-10-21T15:36:53 IST" duration-ms="41422">
+      <class name="runner.RunCuke">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.RunCuke@11fc564b]" started-at="2025-10-21T15:36:11 IST" name="setUpClass" finished-at="2025-10-21T15:36:13 IST" duration-ms="1873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@69aabcb0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCuke@11fc564b]" started-at="2025-10-21T15:36:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-10-21T15:36:42 IST" duration-ms="28355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validate cart module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add products to Demoblaze application cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCuke@11fc564b]" started-at="2025-10-21T15:36:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-10-21T15:36:52 IST" duration-ms="10050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validate login module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login into Demoblaze application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.RunCuke@11fc564b]" started-at="2025-10-21T15:36:52 IST" name="tearDownClass" finished-at="2025-10-21T15:36:53 IST" duration-ms="1055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RunCuke -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
