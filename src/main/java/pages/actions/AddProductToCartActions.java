@@ -10,7 +10,7 @@ import pages.locators.AddProductToCart;
 import pages.locators.HomePageLocators;
 import utils.SeleniumDriver;
 
-import org.testng.Assert;
+//import org.testng.Assert;
 
 public class AddProductToCartActions {
 	
