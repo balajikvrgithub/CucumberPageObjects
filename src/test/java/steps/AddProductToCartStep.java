@@ -22,7 +22,7 @@ public class AddProductToCartStep {
 	
 @Then("click on samsung galaxy s6 product")
 public void click_on_samsung_galaxy_s6_product() throws InterruptedException {
-	Thread.sleep(3000);
+	Thread.sleep(5000);
 	obj.click_on_samsung_S6_mobile();
 }
 
