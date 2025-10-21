@@ -1,3 +1,0 @@
-pages\actions\LoginPageActions.class
-utils\SeleniumDriver.class
-pages\locators\HomePageLocators.class
