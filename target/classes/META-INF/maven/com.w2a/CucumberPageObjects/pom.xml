@@ -17,6 +17,27 @@
                 <encoding>UTF-8</encoding>
                 <source>11</source> <!-- Or your Java version -->
                 <target>11</target> <!-- Or your Java version -->
+                 <fork>true</fork>
+    <compilerArgs>
+      <arg>--add-opens</arg>
+      <arg>jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED</arg>
+      <arg>--add-opens</arg>
+      <arg>jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED</arg>
+      <arg>--add-opens</arg>
+      <arg>jdk.compiler/com.sun.tools.javac.code=ALL-UNNAMED</arg>
+      <arg>--add-opens</arg>
+      <arg>jdk.compiler/com.sun.tools.javac.comp=ALL-UNNAMED</arg>
+      <arg>--add-opens</arg>
+      <arg>jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED</arg>
+      <arg>--add-opens</arg>
+      <arg>jdk.compiler/com.sun.tools.javac.main=ALL-UNNAMED</arg>
+      <arg>--add-opens</arg>
+      <arg>jdk.compiler/com.sun.tools.javac.model=ALL-UNNAMED</arg>
+      <arg>--add-opens</arg>
+      <arg>jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED</arg>
+      <arg>--add-opens</arg>
+      <arg>jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED</arg>
+    </compilerArgs>
             </configuration>
         </plugin>
     
@@ -63,6 +84,13 @@
     <artifactId>testng</artifactId>
     <version>7.5.1</version>
     <scope>test</scope>
+</dependency>
+
+<dependency>
+  <groupId>org.projectlombok</groupId>
+  <artifactId>lombok</artifactId>
+  <version>1.18.32</version> <!-- latest stable version -->
+  <scope>provided</scope>
 </dependency>
 
 
